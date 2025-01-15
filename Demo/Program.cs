@@ -211,6 +211,53 @@
             //    }   
             //}
             #endregion
+
+            #region evolution C#7
+
+            //object obj = new object();
+            //obj = "Ahmed";
+            ////obj = 1;
+
+
+            //switch (obj)
+            //{
+            //    case int X when X > -12:
+            //        Console.WriteLine(value: "Int Object");
+            //        break;
+            //    case string X when X.Length > 5:
+            //        Console.WriteLine(value: "string Object");
+            //        break;
+            //    case string X when X.Length <= 5:
+            //        Console.WriteLine(value: "string Object <= 5");
+            //        break;
+            //}
+            #endregion
+
+            #region evolution C#8
+            //string input = Console.ReadLine();
+            //// 1
+            //// 2
+            //// 3
+            ////string output = input switch
+            ////{
+            ////    "1" => "option 1",
+            ////    "2" => "option 2",
+            ////    "3" => "option 3",
+            ////    _ => "Unsupported option!"
+            ////};
+
+            ////Console.WriteLine(output);
+
+
+
+            //Console.WriteLine(input switch
+            //{
+            //    "1" => "option 1",
+            //    "2" => "option 2",
+            //    "3" => "option 3",
+            //    _ => "Unsupported option!"
+            //}); 
+            #endregion
         }
     }
 }
