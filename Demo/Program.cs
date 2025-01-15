@@ -75,8 +75,8 @@
 
             //while (true)
             //{
-                //Console.Write("enter number of month in the 1st quarter : ");
-                //int monum = int.Parse(Console.ReadLine());
+            //Console.Write("enter number of month in the 1st quarter : ");
+            //int monum = int.Parse(Console.ReadLine());
 
             //if (monum == 1)
             //{
@@ -92,7 +92,7 @@
             ////}
 
 
-            
+
 
             // using switch
 
@@ -101,41 +101,77 @@
             //    case
             //}
 
-            
-            while (true)
-            {
-                Console.Write("enter number of month in the 1st quarter : ");
-                int monum = int.Parse(Console.ReadLine());
-                // jump table
-                switch (monum)
-                {
-                    case 1:
-                        Console.WriteLine("Jan");
-                        break;
-                    case 2:
-                        Console.WriteLine("Feb");
-                        break;
-                    case 3:
-                        Console.WriteLine("Mar");
-                        break;
-                    default:
-                        Console.WriteLine("invalid month number");
-                        break;
-                    case 5:
-                        Console.WriteLine("May");
-                        break;
-                }
-            }
 
+            //while (true)
+            //{
+            //    Console.Write("enter number of month in the 1st quarter : ");
+            //    int monum = int.Parse(Console.ReadLine());
+            //    // jump table
+            //    switch (monum)
+            //    {
+            //        case 1:
+            //            Console.WriteLine("Jan");
+            //            break;
+            //        case 2:
+            //            Console.WriteLine("Feb");
+            //            break;
+            //        case 3:
+            //            Console.WriteLine("Mar");
+            //            break;
+            //        default:
+            //            Console.WriteLine("invalid month number");
+            //            break;
+            //        case 5:
+            //            Console.WriteLine("May");
+            //            break;
+            //    }
+            //}
+            #endregion
 
+            #region ex01
 
+            //Console.Write("enter your name: ");
+            //string name = Console.ReadLine();
 
+            //// hi name
+            //if(name == "Ahmed" || name == "ahmed") // || >> means or
+            //{
+            //    Console.WriteLine("hi Ahmed");
+            //}
+            //else if (name == "Omar")
+            //{
+            //    Console.WriteLine("hi Omar");
+            //}
+            //else if (name == "Ali")
+            //{
+            //    Console.WriteLine("hi Ali");
+            //}
+            //else if (name == "Mariam")
+            //{
+            //    Console.WriteLine("hi Mariam");
+            //}
 
+            // using switch
 
+            //Console.Write("enter your name: ");
+            //string name = Console.ReadLine();
 
-
-
-
+            //switch (name)
+            //{
+            //    case "Ahmed":
+            //    case "ahmed":
+            //        Console.WriteLine("hi Ahmed");
+            //        break;
+            //    case "Omar":
+            //        Console.WriteLine("hi Omar");
+            //        break;
+            //    case "Ali":
+            //        Console.WriteLine("hi Ali");
+            //        break;
+            //    case "Mariam":
+            //        Console.WriteLine("hi Mariam");
+            //        break;
+            //}
             #endregion
         }
     }
