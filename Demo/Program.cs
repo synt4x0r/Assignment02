@@ -173,6 +173,44 @@
             //        break;
             //}
             #endregion
+
+            #region ex02
+            //while (true)
+            //{
+            //    Console.Write("enter your age: ");
+            //    int age = int.Parse(Console.ReadLine());
+
+            //    //// using if
+
+            //    //if (age > 18)
+            //    //{
+            //    //    Console.WriteLine("welcome :)");
+            //    //}
+            //    //else if (age < 18)
+            //    //{
+            //    //    Console.WriteLine("bye bye :(");
+            //    //}
+            //    //else
+            //    //{
+            //    //    Console.WriteLine("equal!!");
+            //    //}
+
+            //    //using switch
+
+            //    switch (age)
+            //    { 
+            //        case > 18:
+            //        Console.WriteLine("welcome");
+            //            break;
+            //        case < 18:
+            //            Console.WriteLine("bye bye");
+            //            break;
+            //        default :
+            //            Console.WriteLine("equal");
+            //            break;
+            //    }   
+            //}
+            #endregion
         }
     }
 }
