@@ -338,6 +338,56 @@ namespace Demo
             //Console.WriteLine(num); 
             #endregion
 
+            #region string
+            // string : reference type : HEAP (class)
+            // immutable type : cant change its value after creation
+
+            //string S01;
+            //// Declare For Reference (Pointer) From Type 'String' 
+            //// S01 : Can Refer To Object From 'String'
+            //// S01 : Refer To Null
+
+            //// 8 Bytes Will Be Allocated At Stack For Refernce 'S01' 
+            //// 0 Bytes Will Be Allocated At HEAP
+
+            //S01 = "Ahmed"; // Syntax Sugar
+            ////new
+            //// 1. Allocate The Number Of Required Bytes For The Object At HEAP
+            //// 2. Initialized The Allocated Bytes The Default Value
+            //// 3.Call User-Defined Constructor If Exists
+            //// 4. Assign The Object To The Reference
+            //Console.WriteLine(S01.GetHashCode()); //ID : indicate address
+
+            //S01 = "Ali";
+            //// 1. Allocate The Number Of Required Bytes For The Object At HEAP
+            //// 2. Initialized The Allocated Bytes The Default Value
+            //// 3.Call User-Defined Constructor If Exists
+            //// 4. Assign The Object To The Reference
+            //Console.WriteLine(S01.GetHashCode());
+
+
+            //S01 = "Yassmin";
+            //Console.WriteLine(S01.GetHashCode());
+
+
+
+            //string Message = "Hello";
+
+            //Console.WriteLine("Message: " + Message); Console.WriteLine("HashCode: " + Message.GetHashCode());
+            //Console.WriteLine();
+
+            //Message += "Ahmed";
+
+            //Console.WriteLine("Message : " + Message);
+            //Console.WriteLine("HashCode : " + Message.GetHashCode()); 
+            #endregion
+
+
+
+
+
+
+
 
         }
     }
