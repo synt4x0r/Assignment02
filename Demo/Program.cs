@@ -1,4 +1,6 @@
-﻿namespace Demo
+﻿using System.Linq.Expressions;
+
+namespace Demo
 {
     internal class Program
     {
@@ -258,6 +260,38 @@
             //    _ => "Unsupported option!"
             //}); 
             #endregion
+
+            // loop control statement (for, foreach, while, do-while)
+
+            // 1. for loop
+
+            //for (/*Statement >> one time*/; /*Expression >> if true >> repeat the code*/ ; /*Statement*/)
+            //{
+            //    // codee
+            //    // that code will be repeated
+
+            //}
+
+            //for (int i = 1; i <= 10; i++)
+            //{
+            //    Console.WriteLine("hello world");
+            //}
+
+            // 2. foreach >> rotate on any container or collection
+
+            //int[] Numbers = { 1, 2, 3, 4, 5, 6, 7 };
+
+            ////for (int i = 0; i < Numbers.Length; i++)
+            ////{
+            ////    Console.WriteLine(Numbers[i]);
+            ////}
+
+            //foreach (int N in Numbers)
+            //{
+            //    Console.WriteLine(N);
+            //}
+
+
         }
     }
 }
