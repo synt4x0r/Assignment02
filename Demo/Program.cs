@@ -1,4 +1,5 @@
 ﻿using System.Linq.Expressions;
+using System.Text;
 
 namespace Demo
 {
@@ -382,12 +383,33 @@ namespace Demo
             //Console.WriteLine("HashCode : " + Message.GetHashCode()); 
             #endregion
 
+            #region StringBuilder
+            //// StringBuilder: Class (Reference Type) : HEAP
+            //// Mutable Date Type : can change its value after creation
 
+            //StringBuilder S01;
+            ////// Declare For Reference (Pointer) From Type 'StringBuilder' 
+            ////// S01 : Can Refer To Object From 'String'
+            ////// S01 : Refer To Null
 
+            //S01 = new StringBuilder("hello ");
+            ////// 1. Allocate The Number Of Required Bytes For The Object At HEAP
+            ////// 2. Initialized The Allocated Bytes The Default Value
+            ////// 3.Call User-Defined Constructor If Exists
+            ////// 4. Assign The Object To The Reference
 
+            //Console.WriteLine("S01 : " + S01);
+            //Console.WriteLine("S01HashCode : " + S01.GetHashCode);
+            //Console.WriteLine();
 
+            ////S01 = new StringBuilder("Ahmed");
 
+            //S01.Append("Ahmed");
 
+            //Console.WriteLine("S01 : " + S01);
+            //Console.WriteLine("S01HashCode : " + S01.GetHashCode);
+            //Console.WriteLine(); 
+            #endregion
 
         }
     }
