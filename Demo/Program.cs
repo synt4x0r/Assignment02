@@ -261,6 +261,7 @@ namespace Demo
             //}); 
             #endregion
 
+            #region loop control statement (for, foreach, while, do-while)
             // loop control statement (for, foreach, while, do-while)
 
             // 1. for loop
@@ -290,6 +291,52 @@ namespace Demo
             //{
             //    Console.WriteLine(N);
             //}
+
+            // 3. while
+
+            //while (/*Expression >> bool*/)
+            //{ 
+            //    //code
+            //    // code will be repeated while the expression is true
+            //}
+
+            //while ( true )
+            //{
+            //    Console.WriteLine("hello world");
+            //}
+
+            //int i = 1;
+
+            //while (i <= 10)
+            //{
+            //    Console.WriteLine("hello world");
+            //    i++;
+            //}
+
+            //Console.WriteLine(i);
+
+            //do - while
+
+            //do
+            //{
+            //    Console.WriteLine("hello world");
+            //    i++;
+            //} while (i <= 10);
+
+
+            //int num;
+            //bool flag;
+            //do
+            //{ 
+            //    Console.Write("even number: ");
+            //    //    flag = int.TryParse(Console.ReadLine(), out num);
+
+            //    // while (num % 2 != 0 || flag == false);
+
+            //} while (!int.TryParse(Console.ReadLine(), out num) || num % 2 != 0);
+
+            //Console.WriteLine(num); 
+            #endregion
 
 
         }
