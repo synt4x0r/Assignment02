@@ -411,6 +411,22 @@ namespace Demo
             //Console.WriteLine(); 
             #endregion
 
+            #region string methods
+            //    string S01 = "Hello world";
+
+            //    //string result = S01.Substring(S01.Length);
+            //    //var result = S01.Replace("hello", "welcome");
+            //    //bool result = S01.StartsWith("h");
+            //    //bool result = S01.StartsWith("h", ignoreCase: true, culture: null);
+            //    S01.ToCharArray();
+            //    int result = S01.IndexOf('e');
+
+
+
+            //    Console.WriteLine(result);
+            //    //Console.WriteLine(S01);
+            //
         }
+        #endregion
     }
 }
